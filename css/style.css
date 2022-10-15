@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    height: 428px;
+    /* width: 100vw; */
+    background-color: #172337;
+    overflow: hidden;
+    color: white;
+
+}
+
+.friend {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.kalyani-1 {
+    /* width: 150px; */
+    width: 112px;
+    padding-left: 410px;
+    height: 88px;
+}
+
+.kalyani-2 {
+    width: 140px;
+    padding-left: 58px;
+
+}
+
+.kalyani-3 {
+    width: 150px;
+    padding-left: 58px;
+
+
+}
+
+.kalyani-4 {
+    width: 149px;
+    padding-left: 58px;
+}
+
+.kalyani-5 {
+    width: 190px;
+    padding-left: 460px;
+
+}
+
+.kalyani-6 {
+    width: 135px;
+    /* padding-left: 350px; */
+    padding-left: 53px;
+    padding-top: 31px;
+}
+
+.kalyani-7 {
+    width: 160px;
+    padding-left: 46px;
+}
+.copy{
+    text-align: center;
+    padding-top: 55px;
+}
+
+.bar {
+    width: 100vw;
+    height: 2px;
+    background-color: red;
+    animation: load 5s ease-in-out forwards;
+}
+
+@keyframes load {
+    0% {
+        width: 0vw;
+    }
+
+    50% {
+        width: 25vw;
+    }
+
+    80% {
+        width: 60vw;
+
+    }
+
+    100% {
+        width: 100vw;
+    }
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+header {
+    font-style: italic;
+    background-color: #1d6ded;
+    border: 2px solid aliceblue;
+}
+
+nav ul {
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: rgb(47, 41, 223);
+    text-decoration: none;
+}
+
+.serch {
+    display: flex;
+    align-items: center;
+}
+
+.serch input {
+    width: 270px;
+    height: 23px;
+    border-radius: 4px;
+    margin: 0 12px 0 60px;
+    padding: 0 6px;
+}
+
+.container {
+    height: 5381px;
+    width: 100vw;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.banner-35 {
+    width: 1535px;
+}
+
+.slider img {
+
+    /* padding: 0px 14px; */
+    width: 1536px;
+    height: 230px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.banner-30 {
+    width: 1535px;
+}
+
+.banner-40 {
+    width: 1537px;
+    height: 355px;
+}
+
+.card {
+    margin: auto;
+    max-width: 95vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+
+.card-item img {
+    margin: 0px 15px;
+    padding-top: 15px;
+}
+
+.lines1 {
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+
+.lines2 {
+    margin-top: 15px;
+    padding-left: 34px;
+}
+
+.img2 {
+    width: 205px;
+    height: 226px;
+}
+
+.lines3 {
+    margin: 0 45px;
+    margin-top: 15px;
+}
+
+.my-1 {
+    padding-left: 23px;
+}
+
+.img3 {
+    width: 225px;
+    height: 150px;
+}
+
+.img4 {
+    width: 242px;
+    height: 200px;
+
+}
+
+.lines4 {
+    padding-left: 58px;
+    margin-top: 13px;
+}
+
+.img5 {
+    width: 231px;
+    height: 185px;
+}
+
+.lines5 {
+    margin-top: 13px;
+    padding-left: 63px;
+}
+
+.banner-1 {
+    width: 1537px;
+    padding-right: 15px;
+    height: 260px;
+}
+
+.card-banner {
+    padding-top: 15px;
+}
+
+.card-banner-2 {
+    padding-top: 10px;
+}
+
+.banner-2 {
+    width: 1461px;
+}
+
+.img6 {
+    width: 225px;
+    height: 240px;
+}
+
+.my-2 {
+    padding-top: 12px;
+    padding-left: 75px;
+}
+
+.error {
+    padding-left: 75px;
+    color: green;
+    margin-top: 10px;
+}
+
+.img7 {
+    width: 200px;
+    height: 237px;
+}
+
+.my-3 {
+    padding-top: 12px;
+    padding-left: 65px;
+
+}
+
+.error-1 {
+    padding-left: 50px;
+    padding-top: 10px;
+    color: green;
+}
+
+.img8 {
+    width: 200px;
+    height: 240px;
+}
+
+.lines6 {
+    padding-top: 8px;
+
+}
+
+.lines7 {
+    padding-top: 8px;
+}
+
+.lines8 {
+    padding-top: 8px;
+}
+
+.my-4 {
+    padding-top: 8px;
+    padding-left: 82px;
+}
+
+.img9 {
+    width: 190px;
+}
+
+.my-5 {
+    padding-top: 12px;
+    padding-left: 31px;
+}
+
+.error-2 {
+    padding-top: 12px;
+    padding-left: 47px;
+    color: green;
+}
+
+.img10 {
+    width: 234px;
+    height: 233px;
+}
+
+.my-6 {
+    padding-left: 79px;
+    padding-top: 12px;
+}
+
+.error-3 {
+    padding-top: 10px;
+    padding-left: 70px;
+    color: green;
+}
+
+.card-banner-3 {
+    padding-top: 15px;
+
+}
+
+.banner-3 {
+    width: 1461px;
+    padding-bottom: 10px;
+}
+
+.card-brand {
+
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.brand-1 {
+    width: 280px;
+}
+
+.brand-2 {
+    width: 293px;
+    height: 155px;
+
+}
+
+.brand-3 {
+    width: 287px;
+    height: 156px;
+}
+
+.brand-4 {
+    width: 290px;
+    height: 155px;
+}
+
+.brand-5 {
+    width: 291px;
+    height: 156px;
+}
+
+.ads {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.mobile-1 {
+    width: 484px;
+}
+
+.mobile-2 {
+    width: 487px;
+}
+
+.mobile-3 {
+    width: 479px;
+    height: 216px;
+}
+
+/* .card-new{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 8px; */
+
+
+.pic1 {
+    width: 255px;
+
+}
+
+.pic2 {
+    width: 255px;
+    height: 257px;
+}
+
+.error4 {
+    padding-left: 97px;
+    padding-top: 15px;
+    color: green;
+}
+
+.tulu1 {
+    padding-left: 34px;
+    padding-top: 5px;
+}
+
+.tulu2 {
+    padding-left: 55px;
+    padding-top: 7px;
+}
+
+.error5 {
+    padding-top: 11px;
+    padding-left: 95px;
+    color: green;
+}
+
+.pic3 {
+    width: 250px;
+    height: 257px;
+}
+
+.tulu3 {
+    padding-left: 39px;
+    padding-top: 9px;
+}
+
+.error6 {
+    padding-left: 70px;
+    padding-top: 8px;
+    color: green;
+}
+
+.pic4 {
+    width: 269px;
+    height: 256px;
+}
+
+.tulu4 {
+    padding-left: 68px;
+    padding-top: 8px;
+}
+
+.error7 {
+    padding-left: 99px;
+    padding-top: 9px;
+    color: green;
+}
+
+.card-item-5 {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 7px;
+    padding-top: 12px;
+
+
+}
+
+.pic5 {
+    width: 236px;
+    height: 256px;
+}
+
+.tulu5 {
+    padding-left: 47px;
+    padding-top: 6px;
+}
+
+.error8 {
+    padding-left: 75px;
+    padding-top: 9px;
+    color: green;
+}
+
+.card-banner-20 {
+    padding-top: 15px;
+
+}
+
+.banner-20 {
+    width: 1461px;
+}
+
+.banner-21 {
+    width: 1461px;
+
+}
+
+.banner-22 {
+    width: 1461px;
+}
